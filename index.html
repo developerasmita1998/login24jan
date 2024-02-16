@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href='style.css'>
+</head>
+<body>
+  <script>
+    function signin(){
+
+      var username = document.getElementById("username").value
+      var password= document.getElementById("password").value
+      if(username=="" || password =="" ){
+
+        if(username=="" && password ==""){
+          alert("user name and password both are empty")
+         return false
+        }
+        if(username==""){
+        alert("please enter username")
+        return false
+      }
+      if(password==""){
+        alert("please enter password")
+        return false
+      }
+         
+      }
+      else{
+        alert(username+"  "+password)
+        return true
+      }
+      
+      
+      
+    
+      return false
+
+    }
+    
+   </script>
+
+  <div class="outer-box">
+    <div >
+        <img src="/githu.jpg" alt="GitHub" style="height: 60px;width: 60px; margin-top: 40px;">
+    </div>
+    <h1>Sign in to GitHub</h1>
+    <div class="inner-box">
+
+
+       <p class="user">
+        <label for="username"><b>Username or email adress</b><br></label>
+        <input type="text" id="username">
+       </p>
+       <p class="password">
+        <label for="password"><b>Password</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;
+         <b class="forget"> Forget password?</b></label>
+        <p>
+          <input type="text" id="password">
+        </p>
+       </p>
+       <button class="signin"onclick="return signin()">Sign in</button>
+       
+       
+    </div>
+    <div class="other-box">
+        <span> New Github? <span class="Create"> Create an account.</span></span>
+    </div>
+   <span class="contactgit"> <span class="Create">Terms  Privacy  Security</span> Contact Github</span>
+  </div>
+
+</body>
+</html>

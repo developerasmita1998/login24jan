@@ -1,0 +1,55 @@
+.outer-box{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    height:100vh ;
+}
+.inner-box{
+background-color: white;
+margin-top: 20px;
+height: fit-content;
+padding: 15px;
+padding-top: 0px;
+padding-bottom: 10px;
+border: 0.5px solid #ccc;
+}
+.other-box{
+    background-color: white;
+    margin-top: 20px;
+    height: fit-content;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0.5px solid #ccc;   
+}
+     .signin{
+        background-color: rgb(11, 176, 11);
+        color: white;
+        border-radius: 8px;
+        padding: 8px;
+        width: 250px;
+        margin-bottom: 15px;
+        text-align: center;
+        border: none;
+        
+     }
+     .forget{
+        color: rgb(70, 70, 203);
+     }
+     .Create{
+        color: rgb(81, 81, 203);
+     }
+     input[type=text]{
+        border: 0.5px solid #ccc;
+        border-radius: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+     }
+     .contactgit{
+      margin-top: 50px;
+     }
+     
+
+     
